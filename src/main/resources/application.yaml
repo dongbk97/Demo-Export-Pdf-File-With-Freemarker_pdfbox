@@ -1,0 +1,12 @@
+ spring:
+   application:
+     name: exportfile-service
+ server:
+   port: 8088
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://localhost:8761/eureka/
+#
+#   instance:
+#     prefer-ip-address: false
