@@ -25,7 +25,7 @@ public class ExportController {
     @GetMapping("/getFilePdf")
     public ResponseEntity<?> getFilePdf(){
         Person person= new Person(1L, "Nguyễn Văn Đồng", LocalDate.of(1997, 2, 22)
-                ,"Quan Hoa, Cầu Giấy, Hà Nội","Mỹ Sơn, Đ Lương, Nghệ An","Msb","Dev");
+                ,"Quan Hoa, Cầu Giấy, Hà Nội","Mỹ Sơn, Đô Lương, Nghệ An","Msb","Dev");
         UploadFileRequest uploadFileRequest=exportfileReportPerson.exportPdfFile(person);
         return ResponseEntity.ok()
                 .contentType(MediaType.APPLICATION_PDF)

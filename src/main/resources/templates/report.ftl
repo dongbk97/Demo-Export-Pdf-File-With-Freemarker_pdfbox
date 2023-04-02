@@ -14,7 +14,7 @@
 </head>
 
 
-<body style="font-family:'Times New Roman'; font-size:12pt">
+<body >
 <div><p style="margin-top:0pt; margin-bottom:14pt; text-align:center"><span style="font-weight:bold">CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM</span>
     </p>
     <p style="margin-top:14pt; margin-bottom:14pt; text-align:center"><span
@@ -25,18 +25,18 @@
     </p>
     <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span style="font-weight:bold">&#xa0;</span><span
                 style="font-weight:bold; text-decoration:underline">I- Sơ lược lý lịch:</span></p>
-    <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Họ và tên: ${name} Bí danh (nếu có):.............................. Nam, nữ:......</span>
+    <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Họ và tên: ${name}                         Bí danh (nếu có):...... Nam, nữ:......</span>
     </p>
     <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify">
-        <span>- Ngày, tháng, năm sinh: ${dayOfBirth}</span>
+        <span>- Ngày, tháng, năm sinh:  ${dayOfBirth}</span>
     </p>
-    <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Quê quán (3):${address}</span>
+    <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Quê quán (3):    ${address}</span>
     </p>
-    <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Nơi thường trú:${nativeLand}</span>
+    <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Nơi thường trú:     ${nativeLand}</span>
     </p>
-    <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Đơn vị công tác:${workUnit}</span>
+    <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Đơn vị công tác:       ${workUnit}</span>
     </p>
-    <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Chức vụ hiện nay:${job}</span>
+    <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Chức vụ hiện nay:       ${job}</span>
     </p>
     <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>- Trình độ chuyên môn, nghiệp vụ:..................................................................................................</span>
     </p>

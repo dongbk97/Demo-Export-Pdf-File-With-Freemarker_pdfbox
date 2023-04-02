@@ -22,13 +22,13 @@ import java.util.Map;
 public class ExportfileReportPerson {
 
     public UploadFileRequest exportPdfFile(Person person) {
-        String drbTemplatePath = "src/main/resources/templates/";
+        String drbTemplatePath = "./src/main/resources/templates/";
         String drbTemplateFileName = "report.ftl";
         try {
             Configuration cfg = new Configuration();
             cfg.setIncompatibleImprovements(new Version(2, 3, 32));
 
-            FileTemplateLoader templateLoader = new FileTemplateLoader(new File(drbTemplatePath));
+            FileTemplateLoader templateLoader = new FileTemplateLoader(new File("../testThuMuc/"));
             cfg.setTemplateLoader(templateLoader);
             cfg.setDefaultEncoding("UTF-8");
             cfg.setLocale(Locale.US);
@@ -73,8 +73,10 @@ public class ExportfileReportPerson {
             os.close();
             FileInputStream fileInputStream = new FileInputStream(filePdfName);
             byte[] pdfBytes = fileInputStream.readAllBytes();
+
             fileInputStream.close();
             byte[] fileContent = Files.readAllBytes(inputFile.toPath());
+
             UploadFileRequest uploadFileRequest= new UploadFileRequest();
             uploadFileRequest.setFilename("fileExport.pdf");
             uploadFileRequest.setData(pdfBytes);
