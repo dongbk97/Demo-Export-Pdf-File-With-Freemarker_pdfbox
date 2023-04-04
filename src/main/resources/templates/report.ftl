@@ -69,6 +69,11 @@
     </p>
     <p style="margin-top:14pt; margin-bottom:14pt; text-align:justify"><span>.........................................................................................................................................................</span>
     </p>
+    
+    <div class=" ml-10" style="margin-top: 10px;">
+                    <input type="checkbox" checked="true"/>
+                    <b> Test checked</b>
+                </div>
     <p style="margin-top:14pt; margin-bottom:14pt; text-align:center"><span style="font-weight:bold">Thủ trưởng đơn vị xác nhận, đề nghị</span><span
                 style="font-weight:bold">&#xa0;</span><span style="font-weight:bold">&#xa0;</span><span
                 style="font-weight:bold">&#xa0;</span><span style="font-weight:bold">&#xa0;</span><span
